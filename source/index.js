@@ -83,12 +83,3 @@ server.listen(port,()=>{
     console.log('server is on '+port)
 })
 
-//This is lecture 17.5 
-//let count=0
-/*socket.emit('countUpdated',count) 
-console.log('New webosocket connection')
-socket.on('increment',()=>{
-    count++
-  //  socket.emit('countUpdated',count)
-  io.emit('countUpdated',count)
-})*/

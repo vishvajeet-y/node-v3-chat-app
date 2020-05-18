@@ -57,8 +57,7 @@ const html=Mustache.render(sidebarTemplate,{
 })
 document.querySelector('#sidebar').innerHTML=html
 })
-//const chatform=document.querySelector('form')
-//const input=document.querySelector('input')
+
 
 $messageForm.addEventListener('submit',(e)=>{
     e.preventDefault()
